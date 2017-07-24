@@ -38,4 +38,4 @@ jobs:
   - task: smoke_test
     file: apps-movie-fun-code/src/ci/tasks/smoke-test.yml
     params:
-      MOVIE_FUN_URL: http://attendee-service-cytoid-holder.apps.pikes.pal.pivotal.io/attendees
+      MOVIE_FUN_URL: http://apps-movie-fun-code-longish-midrib.apps.pikes.pal.pivotal.io
