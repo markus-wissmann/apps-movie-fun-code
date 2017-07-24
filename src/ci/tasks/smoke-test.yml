@@ -14,4 +14,4 @@ inputs:
 - name: apps-movie-fun-code
 
 run:
-  path: apps-movie-fun-code/ci/tasks/smoke-test.sh
+  path: apps-movie-fun-code/src/ci/tasks/smoke-test.sh
