@@ -36,6 +36,6 @@ jobs:
     trigger: true
     passed: [deploy]
   - task: smoke_test
-    file: apps-movie-fun-code/ci/tasks/smoke-test.yml
+    file: apps-movie-fun-code/src/ci/tasks/smoke-test.yml
     params:
       MOVIE_FUN_URL: http://attendee-service-cytoid-holder.apps.pikes.pal.pivotal.io/attendees
