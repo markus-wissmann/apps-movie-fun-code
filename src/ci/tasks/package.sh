@@ -14,7 +14,7 @@ if [ $jar_count -gt 1 ]; then
   exit 1
 fi
 
-find apps-movie-fun-code/target -type f -name *.war -exec cp "{}" package-output/apps-movie-fun-code.jar \;
+find apps-movie-fun-code/target -type f -name *.war -exec cp "{}" package-output/apps-movie-fun-code.war \;
 
 echo "Done packaging"
 exit 0
