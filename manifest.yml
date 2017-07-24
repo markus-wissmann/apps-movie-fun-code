@@ -1,0 +1,10 @@
+applications:
+- name: apps-movie-fun-code
+  instances: 1
+  memory: 512M
+  disk_quota: 512M
+  random-route: true
+  stack: cflinuxfs2
+  path: target/moviefun.war
+  services:
+    - movie-fun-db
