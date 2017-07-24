@@ -9,7 +9,7 @@ fi
 
 pushd apps-movie-fun-code
   echo "Running smoke tests for Movie Fun App deployed at $MOVIE_FUN_URL"
-  mvnw test
+  ./mvnw test
 popd
 
 exit 0
